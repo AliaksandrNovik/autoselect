@@ -9,7 +9,7 @@
 
 .special-item {
     display: flex;
-    width: 705px;
+    width: 100%;
     height: 865px;
     background-size: cover;
     flex-direction: column-reverse;

@@ -128,3 +128,54 @@
     }
 }
 
+
+@media  (max-width: 768px){
+    .main-page__car{
+        left: -35px;
+        transform: scale(0.8)
+    }
+
+    .main-page__form{
+        transform: scale(0.5);
+        top: 100px;
+        left: -100px;
+        weight: 450px;
+        width: 700px;
+    }
+    .cars-block{
+        justify-content: center;
+    }
+
+    .car-text{
+        overflow: auto;
+    }
+
+    .description{
+        overflow: auto;
+    }
+
+    .clients{
+        flex-direction: column;
+    }
+
+    .about-item{
+        width: 50%;
+    }
+
+
+    .right-line_red{
+        display: none;
+    }
+
+    .left-line_red{
+        display: none;
+    }
+
+    .main-page__text__title.main-page__text__title a{
+        font-size: 20px;
+    }
+
+}
+
+
+
