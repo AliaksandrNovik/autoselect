@@ -27,6 +27,7 @@ section.menu{
     position: relative;
     font-family: 'Lato', sans-serif;
     line-height: 2em;
+    height: auto;
 }
 
 .container {
@@ -78,7 +79,7 @@ section.menu{
 
 .select-car{
     position: relative;
-    min-height: 504px;
+    min-height: 704px;
     width: 100%;
     background-color: white;
 }

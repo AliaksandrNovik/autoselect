@@ -107,6 +107,10 @@
         top: 100px;
         left: 431px;
     }
+
+    .schedule{
+        display: none;
+    }
 }
 
 @media  (max-width: 870px){
@@ -117,6 +121,10 @@
     }
     .schedule__text a{
 
+    }
+
+    .location{
+        display: none;
     }
 }
 

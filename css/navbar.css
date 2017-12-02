@@ -89,6 +89,7 @@ i.fa.fa-list-alt {
     width: 100%;
     z-index: 99;
     min-height: 30px;
+    padding: 0 50px;
 }
 
 .b-navbar {

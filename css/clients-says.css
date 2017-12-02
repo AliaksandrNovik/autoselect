@@ -92,7 +92,7 @@
 
 .feedback-faces{
     display: flex;
-    width: 68%;
+    width: 100%;
     height: 100px;
     flex-direction: row;
     justify-content: space-around;
@@ -100,7 +100,6 @@
 }
 
 .feedback-face-item{
-    border: 1px solid greenyellow;
     min-width: 100px;
     min-height: 100px;
     background: url("../images/faces350.png");

@@ -111,11 +111,11 @@
     color: white;
 }
 
-.small-rows-text a.row-first{
+.small-rows-text.row-first{
     font-size: 31px; letter-spacing: 16px;
 }
 
-.small-rows-text a.row-second{
+.small-rows-text.row-second{
     font-size: 16px;
 }
 
