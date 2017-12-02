@@ -25,6 +25,10 @@
 
 </head>
 <body>
+
+
+
+
 <section class="header">
     <div class="container">
         <div class="header-flex-wrapper">
@@ -54,34 +58,47 @@
         </div>
     </div>
 </section>
-
-<nav class="navbar-menu">
+<section class="menu" >
     <div class="container">
-        <div class="navbar-menu_wrapper">
-            <a class="item" id="nav-our">OUR CARS</a> </a>
-            <a class="item" id="nav-special">SPECIALS</a>
-            <a class="item" id="nav-sell">SELL CAR</a>
-            <a class="item" id="nav-why">WHY CHOOSE US</a>
-            <a class="item" id="nav-feedback">CLIENTS FEEDBACK'S</a>
-            <a class="item" id="nav-about">ABOUT US</a>
-            <a class="item" style="display: none">CONTACT</a>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <div class="item navbar__cart">
-                <div class="navbar__cart__text">
-                    <a>CART</a>
-                </div>
-                <div class="navbar__cart__icon">
-                    <i class="fa fa-cart-plus" aria-hidden="true"></i>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link item" id="nav-our"  href="#">Our Cars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link item" id="nav-special">Special</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            More
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item item" id="nav-sell">Sell a Car</a>
+                            <a class="dropdown-item item" id="nav-why">Why choose us</a>
+                            <a class="dropdown-item item"  id="nav-feedback">CLIENTS FEEDBACK'S</a>
+
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item item" id="nav-about">ABOUT US</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0">Search</button>
+                </form>
             </div>
-            <div class="search">
-                <i class="fa fa-search" aria-hidden="true"></i>
-            </div>
-        </div>
+        </nav>
     </div>
-</nav>
+
+</section>
 <section class="main-page">
     <div class="container">
+
         <div class="main-page__text">
             <div class="main-page__text__title"><a>INFINITI Q60 SERIES 2017</a></div>
             <div class="main-page__text__price">

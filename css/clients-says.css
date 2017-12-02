@@ -41,7 +41,6 @@
 
 .clients__logos {
     width: 500px;
-    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;

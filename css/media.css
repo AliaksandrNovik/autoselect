@@ -1,84 +1,122 @@
 @media (max-width: 1599px) {
-    .small-rows-text a.row-second{
+    .small-rows-text a.row-second {
         font-size: 16px;
     }
 
-
-    .discount .first{
+    .discount .first {
         font-size: 30px;
     }
 
-    .discount .second{
+    .discount .second {
         font-size: 30px;
     }
 
-    .small-rows-text a.row-first{
+    .small-rows-text a.row-first {
         letter-spacing: 12px;
         font-size: 16px;
     }
 
-    .small-rows-text a.row-second{
+    .small-rows-text a.row-second {
         font-size: 16px;
     }
 
 }
 
+@media (max-width: 1280px) {
 
-@media  (max-width:1280px){
-
-    .container{
+    .container {
         width: 100%;
     }
+
     /*Header*/
-    .header-flex-wrapper{
+    .header-flex-wrapper {
         justify-content: space-around;
     }
-    .phones{
+
+    .phones {
+        display: none;
+    }
+    /******************************************/
+
+    /*SPECIALS8*/
+
+    .discount {
+        height: 70px;
+        width: 41%;
+    }
+
+    .discount .first {
+        font-size: 20px;
+    }
+
+    .text-block {
+        font-size: 50px;
+    }
+
+    .two-rows {
+        font-size: 20px;
+    }
+
+    .small-rows-text a.row-first {
+        letter-spacing: 12px;
+        font-size: 16px;
+    }
+
+    .small-rows-text a.row-second {
+        font-size: 16px;
+    }
+    /******************************************/
+
+    /*Section header rows - grey and red*/
+    .right-line_red{
+        width: 100px;
+    }
+
+    .left-line_red{
+        margin-left: -167px;
+        width: 100px;
+    }
+
+    .our-car-title-after{
+        font-size: 17px;
+    }
+    /******************************************/
+
+}
+
+@media (max-width: 1000px) {
+    .main-page__text{
+        left: 50%;
+        transform: translate(-50%);
+        top: 20px;
+    }
+
+    .main-page__text__description {
+        display: none;
+    }
+    .main-page__text__learnmore{
         display: none;
     }
 
-    .discount{
-        height: 100px;
-    }
-
-    .text-block{
-        font-size: 50px;
-    }
-    .two-rows{
-        font-size: 20px;
-    }
-
-    .small-rows-text a.row-first{
-        letter-spacing: 12px;
-        font-size: 16px;
-    }
-
-    .small-rows-text a.row-second{
-        font-size: 16px;
-    }
-
-
-    .discount .first{
-        font-size: 20px;
-    }
-
-}
-
-@media (max-width: 950px) {
-    .main-page__text{
-        top: 70px;
-        left: 200px;
-    }
     .main-page__car{
-        top: 400px;
-        left: 200px;
-        transform: scale(1);
+        transform: scale(1.0);
     }
 
     .main-page__form{
-        transform: scale(0.5);
-        top: 114px;
-        right: 65px;
+        transform: scale(0.6);
+        top: 100px;
+        left: 431px;
+    }
+}
+
+@media  (max-width: 870px){
+    .special-cars{
+        margin-left: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .schedule__text a{
+
     }
 }
 
