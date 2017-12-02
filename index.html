@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CarsSelection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/main-page.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/our-car.css">
+    <link rel="stylesheet" type="text/css" href="css/specials.css">
+    <link rel="stylesheet" type="text/css" href="css/select-car.css">
+    <link rel="stylesheet" type="text/css" href="css/clients-says.css">
+    <link rel="stylesheet" type="text/css" href="css/about-us.css">
+    <link rel="stylesheet" type="text/css" href="css/why-us.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
+
+</head>
+<body>
+<section class="header">
+    <div class="container">
+        <div class="header-flex-wrapper">
+            <div class="phones">
+                <i class="fa fa-phone icons-header" aria-hidden="true"></i>
+                <div class="phones__text">
+                    <a><a class="phone__text__title">SALE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>(+84) 7564 6554</a><br>
+                    <a><a class="phone__text__title">Service: </a>(+84) 888 754 754</a>
+                </div>
+            </div>
+            <div class="schedule">
+                <i class="fa fa-clock-o icons-header" aria-hidden="true"></i>
+                <div class="schedule__text">
+                    <a>Mon - Sat 8:00.AM - 21:00.PM</a>
+                    <a>Sunday CLOSED</a>
+                </div>
+            </div>
+            <div class="location">
+                <i class="fa fa-map-marker icons-header" aria-hidden="true"></i>
+                <a class="header-text">9228 Jacobson Trafficway Apt. 777 California USA</a>
+            </div>
+            <div class="brend">
+                <div class="brand__image"><img src="images/firm-brand/firm-brand.png" width="62" height="61"
+                                               title="Image brend" alt="image brand"></div>
+                <div class="brand__name">AutoSelect</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<nav class="navbar-menu">
+    <div class="container">
+        <div class="navbar-menu_wrapper">
+            <a class="item" id="nav-our">OUR CARS</a> </a>
+            <a class="item" id="nav-special">SPECIALS</a>
+            <a class="item" id="nav-sell">SELL CAR</a>
+            <a class="item" id="nav-why">WHY CHOOSE US</a>
+            <a class="item" id="nav-feedback">CLIENTS FEEDBACK'S</a>
+            <a class="item" id="nav-about">ABOUT US</a>
+            <a class="item" style="display: none">CONTACT</a>
+
+            <div class="item navbar__cart">
+                <div class="navbar__cart__text">
+                    <a>CART</a>
+                </div>
+                <div class="navbar__cart__icon">
+                    <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="search">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+</nav>
+<section class="main-page">
+    <div class="container">
+        <div class="main-page__text">
+            <div class="main-page__text__title"><a>INFINITI Q60 SERIES 2017</a></div>
+            <div class="main-page__text__price">
+                <div class="price">
+                    <a class="price">$567</a><a>/MO</a>
+                </div>
+                <div class="month12">
+                    <a>FOR<br> 12 MONTH</a>
+                </div>
+            </div>
+            <div class="main-page__text__description">
+                <p>
+                    <a>WHEN AN UNKNOWN PRINTER TOOK A GALLEY OF TYPE AND</a><br>
+                    <a>SCRAMBLED IT TO MAKE A TYPE SPECIMEN BOOK. IT HAS</a><br>
+                    <a>SURVIVED NOT ONLY FIVE CENTURES</a>
+                </p>
+            </div>
+            <div class="main-page__text__learnmore">
+                <a class="text" href="javascript:void(0)">Learn more</a>
+            </div>
+        </div>
+        <div class="main-page__car"></div>
+        <div class="main-page__form">
+            <div class="form-wrapper">
+                <div class="title">
+                    <a>SEARCH INVENTORY</a>
+                </div>
+                <div class="inputs">
+                    <div class="form-group">
+                        <select class="form-control" id="body">
+                            <option value="" disabled selected>Select body</option>
+                            <option>Sedan</option>
+                            <option>SUV</option>
+                            <option>Minivan</option>
+                            <option>Truck</option>
+                            <option>Coupe</option>
+                        </select>
+                        <select class="form-control" id="make">
+                            <option value="" disabled selected>Select Make</option>
+                            <option>Audi</option>
+                            <option>BMW</option>
+                            <option>INFINITI</option>
+                            <option>LEXUS</option>
+                            <option>MERCEDES BENZ</option>
+                        </select>
+                        <select class="form-control" id="year">
+                            <option value="" disabled selected>Select Year</option>
+                            <option>2012</option>
+                            <option>2013</option>
+                            <option>2014</option>
+                            <option>2015</option>
+                            <option>2016</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="search"><a class="text" href="javascript:void(0)">SEARCH</a></div>
+                <div class="have-question">
+                    <a class="question text">Have a questions? call today! <a class="phone text">(+84) 5556 5878</a></a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+<section class="our-car" id="our-cars">
+    <div class="container">
+        <div class="our-car-title">
+            <div class="left-line_red"></div>
+            <div class="red_left"></div>
+            <div class="title-text">
+                OUR CARS
+            </div>
+            <div class="red_rigth"></div>
+            <div class="right-line_red"></div>
+        </div>
+        <div class="our-car-title-after">
+            WELCOME TO AUTO CAR
+        </div>
+
+        <nav class="nav nav-tabs" id="myTab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-new-tab" data-toggle="tab" href="#nav-home" role="tab"
+               aria-controls="nav-home" aria-selected="true">New cars</a>
+            <a class="nav-item nav-link" id="nav-user-tab" data-toggle="tab" href="#nav-profile" role="tab"
+               aria-controls="nav-profile" aria-selected="false">User cars</a>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="cars-block">
+                    <div class="car-item">
+                        <div class="parent-wrapper">
+                            <div class="image car1">
+                                <div class="image_wrapper">
+                                    <div class="image__price"><a>$35.000</a></div>
+                                    <div class="blank-triangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <a>INFINITI EX35, NAVI, LEATHER, ABS</a><br>
+                            <a class="gas">40/65 <img src="./images/gas.png" width="20px" height="20px"></a>
+                            <a class="dsg">Automatic <i class="fa fa-car" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="car-item">
+                        <div class="parent-wrapper">
+                            <div class="image car2">
+                                <div class="image_wrapper">
+                                    <div class="image__price"><a>$24.000</a></div>
+                                    <div class="blank-triangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <a>INFINITI QX50, NAVI, LEATHER, ABS</a><br>
+                            <a class="gas">45/65 <img src="./images/gas.png" width="20px" height="20px"></a>
+                            <a class="dsg">Automatic <i class="fa fa-car" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="car-item">
+                        <div class="parent-wrapper">
+                            <div class="image car3">
+                                <div class="image_wrapper">
+                                    <div class="image__price"><a>$19.000</a></div>
+                                    <div class="blank-triangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <a>INFINITI M50, NAVI, LEATHER, ABS</a><br>
+                            <a class="gas">60/65 <img src="./images/gas.png" width="20px" height="20px"></a>
+                            <a class="dsg">Automatic <i class="fa fa-car" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="car-item">
+                        <div class="parent-wrapper">
+                            <div class="image car4">
+                                <div class="image_wrapper">
+                                    <div class="image__price"><a>$22.000</a></div>
+                                    <div class="blank-triangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <a>INFINITI M45, NAVI, LEATHER, ABS</a><br>
+                            <a class="gas">45/65 <img src="./images/gas.png" width="20px" height="20px"></a>
+                            <a class="dsg">Automatic <i class="fa fa-car" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="car-item">
+                        <div class="parent-wrapper">
+                            <div class="image car5">
+                                <div class="image_wrapper">
+                                    <div class="image__price"><a>$80.000</a></div>
+                                    <div class="blank-triangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <a>INFINITI QX56, NAVI, LEATHER, ABS</a><br>
+                            <a class="gas">45/65 <img src="./images/gas.png" width="20px" height="20px"></a>
+                            <a class="dsg">Automatic <i class="fa fa-car" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="car-item">
+                        <div class="parent-wrapper">
+                            <div class="image car6">
+                                <div class="image_wrapper">
+                                    <div class="image__price"><a>$15.000</a></div>
+                                    <div class="blank-triangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <a>INFINITI QX56, NAVI, LEATHER, ABS</a><br>
+                            <a class="gas">45/65 <img src="./images/gas.png" width="20px" height="20px"></a>
+                            <a class="dsg">Automatic <i class="fa fa-car" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="car-item">
+                        <div class="parent-wrapper">
+                            <div class="image car7">
+                                <div class="image_wrapper">
+                                    <div class="image__price"><a>$19.000</a></div>
+                                    <div class="blank-triangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <a>INFINITI QX50, NAVI, LEATHER, ABS</a><br>
+                            <a class="gas">45/65 <img src="./images/gas.png" width="20px" height="20px"></a>
+                            <a class="dsg">Automatic <i class="fa fa-car" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="car-item">
+                        <div class="parent-wrapper">
+                            <div class="image car8">
+                                <div class="image_wrapper">
+                                    <div class="image__price"><a>$32.000</a></div>
+                                    <div class="blank-triangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <a>INFINITI QX20, NAVI, LEATHER, ABS</a><br>
+                            <a class="gas">45/65 <img src="./images/gas.png" width="20px" height="20px"></a>
+                            <a class="dsg">Automatic <i class="fa fa-car" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <div class="cars-block">
+                    <div class="car-item">
+                        <div class="parent-wrapper">
+                            <div class="image car1">
+                                <div class="image_wrapper">
+                                    <div class="image__price"><a>$35.000</a></div>
+                                    <div class="blank-triangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <a>INFINITI EX35, NAVI, LEATHER, ABS</a><br>
+                            <a class="gas">40/65 <img src="./images/gas.png" width="20px" height="20px"></a>
+                            <a class="dsg">Automatic <i class="fa fa-car" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="car-item">
+                        <div class="parent-wrapper">
+                            <div class="image car2">
+                                <div class="image_wrapper">
+                                    <div class="image__price"><a>$24.000</a></div>
+                                    <div class="blank-triangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <a>INFINITI QX50, NAVI, LEATHER, ABS</a><br>
+                            <a class="gas">45/65 <img src="./images/gas.png" width="20px" height="20px"></a>
+                            <a class="dsg">Automatic <i class="fa fa-car" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="car-item">
+                        <div class="parent-wrapper">
+                            <div class="image car3">
+                                <div class="image_wrapper">
+                                    <div class="image__price"><a>$19.000</a></div>
+                                    <div class="blank-triangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <a>INFINITI M50, NAVI, LEATHER, ABS</a><br>
+                            <a class="gas">60/65 <img src="./images/gas.png" width="20px" height="20px"></a>
+                            <a class="dsg">Automatic <i class="fa fa-car" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="car-item">
+                        <div class="parent-wrapper">
+                            <div class="image car4">
+                                <div class="image_wrapper">
+                                    <div class="image__price"><a>$22.000</a></div>
+                                    <div class="blank-triangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <a>INFINITI M45, NAVI, LEATHER, ABS</a><br>
+                            <a class="gas">45/65 <img src="./images/gas.png" width="20px" height="20px"></a>
+                            <a class="dsg">Automatic <i class="fa fa-car" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="car-item">
+                        <div class="parent-wrapper">
+                            <div class="image car5">
+                                <div class="image_wrapper">
+                                    <div class="image__price"><a>$80.000</a></div>
+                                    <div class="blank-triangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <a>INFINITI QX56, NAVI, LEATHER, ABS</a><br>
+                            <a class="gas">45/65 <img src="./images/gas.png" width="20px" height="20px"></a>
+                            <a class="dsg">Automatic <i class="fa fa-car" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="car-item">
+                        <div class="parent-wrapper">
+                            <div class="image car6">
+                                <div class="image_wrapper">
+                                    <div class="image__price"><a>$15.000</a></div>
+                                    <div class="blank-triangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <a>INFINITI QX56, NAVI, LEATHER, ABS</a><br>
+                            <a class="gas">45/65 <img src="./images/gas.png" width="20px" height="20px"></a>
+                            <a class="dsg">Automatic <i class="fa fa-car" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="car-item">
+                        <div class="parent-wrapper">
+                            <div class="image car7">
+                                <div class="image_wrapper">
+                                    <div class="image__price"><a>$19.000</a></div>
+                                    <div class="blank-triangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <a>INFINITI QX50, NAVI, LEATHER, ABS</a><br>
+                            <a class="gas">45/65 <img src="./images/gas.png" width="20px" height="20px"></a>
+                            <a class="dsg">Automatic <i class="fa fa-car" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                    <div class="car-item">
+                        <div class="parent-wrapper">
+                            <div class="image car8">
+                                <div class="image_wrapper">
+                                    <div class="image__price"><a>$32.000</a></div>
+                                    <div class="blank-triangle"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <a>INFINITI QX20, NAVI, LEATHER, ABS</a><br>
+                            <a class="gas">45/65 <img src="./images/gas.png" width="20px" height="20px"></a>
+                            <a class="dsg">Automatic <i class="fa fa-car" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view-all"><a class="text" href="javascript:void(0)">View all</a></div>
+    </div>
+
+    </div>
+</section>
+<section class="specials" id="specials">
+    <div class="container">
+        <div class="our-car-title">
+            <div class="left-line_red"></div>
+            <div class="red_left"></div>
+            <div class="title-text white-text">
+                SPECIALS
+            </div>
+            <div class="red_rigth"></div>
+            <div class="right-line_red"></div>
+        </div>
+        <div class="our-car-title-after">
+            WELCOME TO AUTO CAR
+        </div>
+
+    </div>
+    <div class="special-cars">
+        <div class="special-item">
+            <div class="parent-wrapper special-car1">
+                <div class="discount">
+                    <div class="text-block">
+                        <a>1.8</a>
+                    </div>
+                    <div class="two-rows">
+                        <a>%<br></a>
+                        <a>APR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="special-item spec2">
+            <div class="parent-wrapper special-car2">
+                <div class="discount all-width without-bg white-text flex-vertical">
+                    <div class="row first"><a>INFINITI FX 50S</a></div>
+                    <div class="row second"><a><a class="red">590$</a>/MO <br></a></div>
+                    <div class="row third">
+                        <a class="gas">40/65 <img src="./images/gas.png" width="20px" height="20px"></a>
+                        <a class="dsg">Automatic <i class="fa fa-car" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="special-item spec3">
+            <div class="parent-wrapper special-car3">
+                <div class="discount long">
+                    <div class="text-block">
+                        <a>24</a>
+                    </div>
+                    <div class="two-rows small-rows-text">
+                        <a class="row-first">MONTH<br></a>
+                        <a class="row-second">AN APPROVED CREDIT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="special-item spec4">
+            <div class="parent-wrapper special-car4">
+                <div class="discount all-width without-bg white-text flex-vertical">
+                    <div class="row first"><a>INFINITI FX 35S</a></div>
+                    <div class="row second"><a><a class="red">567$</a>/MO <br></a></div>
+                    <div class="row third">
+                        <a class="gas">40/65 <img src="./images/gas.png" width="20px" height="20px"></a>
+                        <a class="dsg">Automatic <i class="fa fa-car" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="select-car" id="select-car">
+    <div class="container">
+        <div class="question-block">
+            <div class="red-block">
+                <div class="layer bg-red">
+                    <div class="content-block">
+                        <div class="car-image">
+                            <i class="fa fa-search" aria-hidden="true"></i><br>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+                        <div class="car-text">
+                            <h6>ARE YOU ARE LOOKING FOR A CAR?</h6>
+                            <p class="text">
+                                There are many variations of passages of Lorem Ipsum,
+                                available but the majority have suffered alteration in
+                                some form, by injected humour
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="black-block">
+                <div class="layer bg-darkgray wrapper">
+                    <div class="content-block">
+                        <div class="car-image">
+                            <i class="fa fa-usd" aria-hidden="true"></i>
+                            <i class="fa fa-car" aria-hidden="true"></i>
+                        </div>
+                        <div class="car-text">
+                            <h6>DO YOU WANT TO SELL A CAR?</h6>
+                            <p class="text">
+                                There are many variations of passages of Lorem Ipsum,
+                                available but the majority have suffered alteration in
+                                some form, by injected humour
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="why-choose" id="why-choose">
+    <div class="layer bg-darkgray">
+        <div class="container">
+            <div class="our-car-title">
+                <div class="left-line_red"></div>
+                <div class="red_left"></div>
+                <div class="title-text white-text">
+                    WHY CHOOSE US
+                </div>
+                <div class="red_rigth"></div>
+                <div class="right-line_red"></div>
+            </div>
+            <div class="our-car-title-after">
+                WELCOME TO AUTO CAR
+            </div>
+            <div class="why-us-flex-wrapper">
+                <div class="why-item">
+                    <div class="image"><img src="images/why-us/why-1.png"></div>
+                    <div class="title">WIDE RANGE OF BRANDS</div>
+                    <div class="description">A pleasant, outgoing personality who always gets on well with others.
+                        AutoSelect will always be noticed and popular in a group.</div>
+                </div>
+                <div class="why-item">
+                    <div class="image"><img src="images/why-us/why-2.png"></div>
+                    <div class="title">FINANCING MADE EASY</div>
+                    <div class="description">A pleasant, outgoing personality who always gets on well with others.
+                        AutoSelect will always be noticed and popular in a group.</div>
+                </div>
+                <div class="why-item">
+                    <div class="image"><img src="images/why-us/why-3.png"></div>
+                    <div class="title">TRUSTED BY THOUSANDS</div>
+                    <div class="description">A pleasant, outgoing personality who always gets on well with others.
+                        AutoSelect will always be noticed and popular in a group.</div>
+                </div>
+                <div class="why-item">
+                    <div class="image"><img src="images/why-us/why-4.png"></div>
+                    <div class="title">CAR SERVCIE & MAINTANCE</div>
+                    <div class="description">A pleasant, outgoing personality who always gets on well with others.
+                        AutoSelect will always be noticed and popular in a group.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="clients-says" id="clients-says">
+    <div class="container">
+        <div class="clients wrapper">
+            <div class="clients__text">
+                <p class="title">WHAT<br>
+                    CLIENTS SAYS?</p>
+
+                <p class="feedback">
+                    From a set of data, AutoSelect is able to establish a principle, or work out a rule, or suggest a
+                    reason for failure or success. His analysis is always accurate and sometimes original.
+                    Aiming for a top job in the organization. He sets very high standards, aware that this will bring
+                    attention and promotion. A pleasant, outgoing personality who always gets on well with others.
+                    AutoSelect will always be noticed and popular in a group. When ideas are challenged by others,
+                    AutoSelect listens to their view politely, but is able to maintain a position firmly and
+                    persuasively without aggression.
+                </p>
+                <p class="feedback-giver">GEORGE W. BUSH Junior</p>
+                <div class="feedback-faces">
+                    <div class="feedback-face-item face1">
+                    </div>
+                    <div class="feedback-face-item face2">
+                    </div>
+                    <div class="feedback-face-item face3">
+                    </div>
+                </div>
+            </div>
+            <div class="clients__logos">
+                <div class="logo-item">
+                    <div class="parent-wrapper logo1">
+                    </div>
+                </div>
+                <div class="logo-item">
+                    <div class="parent-wrapper logo2">
+                    </div>
+                </div>
+                <div class="logo-item">
+                    <div class="parent-wrapper logo3">
+                    </div>
+                </div>
+                <div class="logo-item">
+                    <div class="parent-wrapper logo4">
+                    </div>
+                </div>
+                <div class="logo-item">
+                    <div class="parent-wrapper logo5">
+                    </div>
+                </div>
+                <div class="logo-item">
+                    <div class="parent-wrapper logo6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about" id="about">
+    <div class="container">
+        <div class="about-us-flex">
+            <div class="about-item about-company">
+                <div class="title">About AutoSelect</div>
+                <div class="about-us-text"><p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                </p>
+                </div>
+            </div>
+            <div class="about-item photo-gallery">
+                <div class="title">Photo gallery</div>
+                <div class="images">
+                    <div class="gal-item"><img src="images/our-car/our-car-1.jpg"></div>
+                    <div class="gal-item"><img src="images/our-car/our-car-2.jpg"></div>
+                    <div class="gal-item"><img src="images/our-car/our-car-3.jpg"></div>
+                    <div class="gal-item"><img src="images/our-car/our-car-4.jpg"></div>
+                </div>
+            </div>
+            <div class="about-item latest-posts">
+                <div class="title">LATEST BLOG POSTS</div>
+                <div class="about-us-text"><p>
+                    <a>AutoSelect is a very strong company. Hope that will work with this company in future.</a>
+                    <p style="color: red;font-style: italic;text-align: right">J. Bush</p>
+                </div>
+            </div>
+            <div class="about-item social-net">
+                <div class="title">SOCIAL NETWORK</div>
+                <div class="images">
+                    <div class="gal-item youtube"><a href="http://youtube.com" target="_blank"><i class="fa fa-youtube"
+                                                                                                  aria-hidden="true"></i></a>
+                    </div>
+                    <div class="gal-item facebook"><a href="http://facebook.com" target="_blank"> <i
+                            class="fa fa-facebook" aria-hidden="true"></i></a></div>
+                    <div class="gal-item twitter"><a href="http://twitter.com" target="_blank"><i class="fa fa-twitter"
+                                                                                                  aria-hidden="true"></i></a>
+                    </div>
+                    <div class="gal-item insta"><a href="http://www.instagram.com" target="_blank"><i
+                            class="fa fa-instagram" aria-hidden="true"></i></a></div>
+                </div>
+            </div>
+            <div class="about-item contacts">
+                <div class="title">Get in contact</div>
+                <div class="contact-item">
+                    <div class="contact-item__icon"><i class="fa fa-map-marker icons-header" aria-hidden="true"></i>
+                    </div>
+                    <div class="contact-item__text"><a>9228 Jacobson Trafficway Apt. 777 California USA</a></div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-item__icon"><i class="fa fa-phone icons-header" aria-hidden="true"></i></div>
+                    <div class="contact-item__text"><a>+375 33 605 33 10</a></div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-item__icon"><i class="fa fa-envelope icons-header" aria-hidden="true"></i></div>
+                    <div class="contact-item__text">na49526@yandex.ru</div>
+                </div>
+            </div>
+            <div class="about-item sales-hours">
+                <div class="title">SALES HOURS</div>
+                <div class="hours-text"><a><a class="dimgray-color">Monday-Friday:</a>&nbsp;&nbsp;09:00AM -
+                    09:00PM</a><br>
+                    <a><a class="dimgray-color">Saturday:</a>&nbsp;&nbsp; 09:00AM - 07:00PM</a>
+                    <a><a class="dimgray-color"> Sunday:</a> &nbsp;&nbsp;Closed</a>
+                </div>
+                <div class="title">SUBSCRIBE</div>
+                <div class="hours-text"><a class="dimgray-color">Get latest updates and offers</a></div>
+            </div>
+            <div class="about-item service-hours">
+                <div class="title">SERVICE HOURS</div>
+                <div class="hours-text"><a><a class="dimgray-color">Monday-Friday:</a>&nbsp;&nbsp;09:00AM -
+                    09:00PM</a><br>
+                    <a><a class="dimgray-color">Saturday:</a>&nbsp;&nbsp; 09:00AM - 07:00PM</a>
+                    <a><a class="dimgray-color"> Sunday:</a> &nbsp;&nbsp;Closed</a>
+                </div>
+            </div>
+            <div class="about-item parts-hours">
+                <div class="title">PARTS HOURS</div>
+                <div class="hours-text"><a><a class="dimgray-color">Monday-Friday:</a>&nbsp;&nbsp;09:00AM -
+                    09:00PM</a><br>
+                    <a><a class="dimgray-color">Saturday:</a>&nbsp;&nbsp; 09:00AM - 07:00PM</a>
+                    <a><a class="dimgray-color"> Sunday:</a> &nbsp;&nbsp;Closed</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer" id="footer">
+    <div class="container">
+        <div class="navbar-menu_wrapper">
+
+            <a class="item" id="nav-our">Our cars</a> </a>
+            <a class="item" id="nav-special">Specials</a>
+            <a class="item" id="nav-sell">Sell car</a>
+            <a class="item" id="nav-why">Why choose us</a>
+            <a class="item" id="nav-feedback">Clients feedbacks</a>
+            <a class="item" id="nav-about">About us</a>
+        </div>
+    </div>
+</section>
+<script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
