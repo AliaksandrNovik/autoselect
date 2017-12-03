@@ -161,6 +161,5 @@ div.have-question a.phone{
     opacity: 0.2;
 }
 .carousel-control-next:active{
-    background-color: #1a1a1a;
-    opacity: 0.2;
+    background-color: lightgray;
 }

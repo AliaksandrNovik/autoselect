@@ -103,9 +103,10 @@
     }
 
     .main-page__form{
-        transform: scale(0.6);
-        top: 100px;
-        left: 431px;
+        transform: scale(0.9);
+        top: 27px;
+        left: 122px;
+        width: 600px;
     }
 
     .schedule{
@@ -152,11 +153,11 @@
     }
 
     .main-page__form{
-        transform: scale(0.5);
-        top: 100px;
-        left: -100px;
-        weight: 450px;
-        width: 700px;
+        transform: scale(0.8);
+        top: 20px;
+        left: -17px;
+        /* width: 738px; */
+        /* height: 500px; */
     }
     .cars-block{
         justify-content: center;
@@ -248,11 +249,26 @@
         left: -13%;
     }
 
+    .main-page__form{
+        transform: scale(0.7);
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .main-page__form{
+        width: 90%;
+    }
+
 }
 
 @media  (max-width: 450px){
     .main-page__form{
-        left:-128px;
+        height: 510px;
+        width: 400px;
+        left: 11px;
+        top: 2%;
     }
 
     .about-item{
