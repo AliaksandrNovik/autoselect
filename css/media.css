@@ -111,6 +111,22 @@
     .schedule{
         display: none;
     }
+
+    .slide{
+        display: none;
+    }
+
+    .main-page__car{
+        visibility: inherit;
+    }
+
+    .carousel-control-prev{
+        display: none;
+    }
+
+    .carousel-control-next{
+        display: none;
+    }
 }
 
 @media  (max-width: 870px){

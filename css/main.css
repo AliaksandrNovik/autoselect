@@ -148,3 +148,33 @@ a:active {
     width:auto;
     padding: 0 20px;
 }
+
+
+.carousel{
+    position: absolute;
+    width: 640px;
+    height: 866px;
+    top: 0px;
+    left: 110px;
+}
+
+.carousel-wrapper{
+    height: 866px;
+}
+
+.carousel-inner{
+   height: 100%;
+}
+
+.carousel-item{
+    height: 100%;
+}
+
+.carousel-caption{
+    height: 100%;
+}
+img.d-block.w-100{
+    display: block;
+    position: absolute;
+    bottom: 50px;
+}
