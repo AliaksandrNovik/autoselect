@@ -62,6 +62,25 @@ section.menu{
     background-size: cover;
 }
 
+.main-page::before{
+    background: #1A1A1A;
+    opacity: 0.2;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.main-page::after{
+
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
 
 
 .our-car{
