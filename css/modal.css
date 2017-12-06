@@ -17,3 +17,38 @@
     font-family: 'Vollkorn SC', serif;
     font-weight: bold;
 }
+
+button.btn{
+    border-radius: 0px;
+}
+
+.btn.btn-secondary{
+    cursor: pointer;
+    background-color: #282828;
+    border-color: #282828;
+}
+
+.btn.btn-primary{
+    background-color: #E03637;
+    border-color:#E03637;
+
+}
+
+button.btn.btn.btn-primary:focus{
+    box-shadow: none;
+}
+
+button.btn.btn.btn-primary:active{
+    background-color: #E03637;
+    border-color:#E03637;
+    box-shadow: none
+}
+
+h5.modal-title{
+    font-family: 'Vollkorn SC', serif;
+}
+
+button.close.close.close:focus{
+    cursor: pointer;
+    box-shadow: none;
+}

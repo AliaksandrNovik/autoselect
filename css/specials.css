@@ -24,6 +24,7 @@
 .car-item:hover .parent-wrapper,
 .car-item:focus .parent-wrapper {
     transform: scale(1.15);
+    cursor: pointer;
 }
 
 
@@ -148,6 +149,7 @@
     font-size: 37px;
 }
 .third{
+    padding-top: 20px;
     font-size: 18px;
 }
 
