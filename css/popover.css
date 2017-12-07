@@ -2,6 +2,9 @@ div.popover h3.popover-header{
     background-color: #E03637;
     color: whitesmoke;
     border: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
 }
 
 div.popover-body{
@@ -11,5 +14,6 @@ div.popover-body{
 
 div.popover{
     border-radius: 0px;
+    border: none;
 }
 
