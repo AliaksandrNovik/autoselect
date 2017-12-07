@@ -105,6 +105,10 @@
     flex-direction: column;
 }
 
+.flex-vertical{
+    flex-direction: column;
+}
+
 .text-block {
     padding-left: 4px;
     font-weight: 900;

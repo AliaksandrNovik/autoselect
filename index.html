@@ -20,14 +20,13 @@
     <link rel="stylesheet" type="text/css" href="css/why-us.css">
     <link rel="stylesheet" type="text/css" href="css/modal.css">
     <link rel="stylesheet" type="text/css" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="css/popover.css">
 
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
-
-
 </head>
 <body>
 <section class="header">
@@ -124,7 +123,7 @@
                                 </div>
 
                                 <div class="main-page__text__learnmore">
-                                    <a class="text" href="javascript:void(0)">Learn more</a>
+                                    <a class="text" href="javascript:void(0)" >Learn more</a>
                                 </div>
                             </div>
                         </div>
@@ -144,8 +143,8 @@
                                     </div>
                                 </div>
 
-                                <div class="main-page__text__learnmore">
-                                    <a class="text" href="javascript:void(0)">Learn more</a>
+                                <div class="main-page__text__learnmore" >
+                                    <a class="text" href="javascript:void(0)" >Learn more</a>
                                 </div>
                             </div>
                         </div>
@@ -232,7 +231,10 @@
                         </select>
                     </div>
                 </div>
-                <div class="search"><a class="text" href="javascript:void(0)">SEARCH</a></div>
+                <div class="search simplebox"  >
+                <a class="text simplebox" href="javascript:void(0)"  title="Error!"
+                   data-content="Not all options were filled. Please populate them and click on button 'Search'?"
+                                                 data-target="#exampleModal" onclick="extractValuesFromForm()">SEARCH</a></div>
                 <div class="have-question">
                     <a class="question text">Have a questions? call today! <a class="phone text">(+84) 5556 5878</a></a>
                 </div>
@@ -938,6 +940,58 @@
             </div>
         </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title green-color" id="exampleModalLabel">Request was sent successfully</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                  <div class="wrapper flex-vertical">
+
+                      <div class="success-text">Search request with values below was sent to the server.
+                          We will notify you when specified cars appeared in out company.
+                          <br>For more details please contact:
+                          <p>
+                              <a> <i class="fa fa-envelope" aria-hidden="true"></i>
+                                  na49526@yandex.ru</a>
+                          </p>
+                      </div>
+
+
+                      <table class="table table-striped">
+                          <thead>
+                          <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">Brand</th>
+                              <th scope="col">Body</th>
+                              <th scope="col">Year</th>
+                          </tr>
+                          </thead>
+                          <tbody>
+                          <tr>
+                              <th scope="row">1</th>
+                              <td class="body"></td>
+                              <td class="brand"></td>
+                              <td class="year"></td>
+                          </tr>
+
+                          </tbody>
+                      </table>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Stay there</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <section class="footer" id="footer">
@@ -966,6 +1020,7 @@
 
 <script src="js/site.js"></script>
 <script src="js/modal.js"></script>
+<script src="js/form.js"></script>
 
 </body>
 </html>

@@ -203,3 +203,11 @@ img.d-block.w-100{
 .modal-body{
 
 }
+
+.simplebox:focus{
+    outline: none;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}

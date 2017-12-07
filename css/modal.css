@@ -10,6 +10,12 @@
     height: 100%;
 }
 
+div#exampleModal .modal-content{
+    height: auto;
+}
+
+
+
 .modal-content .title{
     height: 60px;
     font-size: 15px;
@@ -48,7 +54,18 @@ h5.modal-title{
     font-family: 'Vollkorn SC', serif;
 }
 
+.green-color{
+    color: forestgreen;
+}
+
 button.close.close.close:focus{
     cursor: pointer;
     box-shadow: none;
+}
+
+.success-text{
+    font-family: 'Vollkorn SC', serif;
+    font-size: 15px;
+    padding: 10px;
+
 }
